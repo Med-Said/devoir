@@ -17,5 +17,46 @@ public class Groupe {
 		 * */
 		
 		System.out.println(med.getNom());
+		
+		//Exercie 3
+		//question 3
+		Professeur prof = new Professeur("Diakite","Med Liman",53);
+		System.out.println(prof.sePresenter());//ici la methode sePresenter() est ce lui de la class Professeur
+		
+		Personne p = prof;
+		System.out.println(p.sePresenter());//ici la methode sePresenter() est ce lui de la class Personne
+		
+		//question 4
+		System.out.println(prof.getNom());
+		/*
+		 * on a pas besion de redefinir la mothode
+		 * getNom() dans la class professeur car elle joue le meme role que celle de la classe Personne*/
+		
+		/*question 6
+		 * on ne peut pas afficher l'etablissement de la personne p,
+		 * car la classe personne n'a pas l'attribut Etablissement
+		 * */
 	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
